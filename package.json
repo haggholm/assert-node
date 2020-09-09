@@ -1,0 +1,22 @@
+{
+  "name": "assert-node",
+  "version": "1.0.0",
+  "description": "Assert that the module is running in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Petter Häggholm <petter@owl.co>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:haggholm/assert-node.git"
+  },
+  "dependencies": {
+    "detect-node": "^2.0.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.com"
+  }
+}
